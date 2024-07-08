@@ -3,12 +3,148 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Bootstrap</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
     <script src='main.js'></script>
+    <title>Bootstrap.design</title>
 </head>
 <body>
+<section>
+    <div class="parent container-fluid gap-3">
+        <div class="c-block row">
+
+            <div class="block-1 container col-sm-12 col-md-6 row-gap-3">
+                <h5 class="fs-1 fw-bold">
+                    Basic Details
+                </h5>
+                
+                <div class="row g-3">
+                    <div class="image-input">
+                        <label for="postal code" class="form-label"></label>
+                     </div>
+                    <div class="col-2">
+                        <label for="category" class="form-label">Salutation</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="1">Mr</option>
+                            <option value="2">Mrs</option>
+                          </select>
+                    </div>
+
+                    <div class="col-5">
+                        <label for="Name" class="form-label">First Name</label>
+                      <input type="text" class="form-control rounded-3" placeholder="john" aria-label="First name">
+                    </div>
+
+                    <div class="col-5">
+                        <label for="Last Name" class="form-label">Last Name</label>
+                      <input type="text" class="form-control rounded-3" placeholder="doe" aria-label="Last name">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="Email" class="form-label">Email</label>
+                        <input type="email" class="form-control rounded-3" placeholder="mail@simmmple.com" id="inputEmail4">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="Number" class="form-label">Mobile</label>
+                        <input type="email" class="form-control rounded-3"  placeholder="enter mobile Number" id="inputEmail4">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="dob" class="form-label">Date of Birth</label>
+                        <input type="text" class="form-control rounded-3"  placeholder="Select date of birth" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="dob" class="form-label">Gender</label>
+                        <div class="d-flex gap-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                  Male
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                  Female
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="col-md-12">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="email" class="form-control rounded-3"  placeholder="enter address" id="inputEmail4">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="country" class="form-label">Country</label>
+                        <input type="text" class="form-control rounded-3"  placeholder="Select country" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="state" class="form-label">Select state</label>
+                        <input type="text" class="form-control rounded-3"  placeholder="Select state" id="inputEmail4">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="city" class="form-label">City</label>
+                        <input type="text" class="form-control rounded-3"  placeholder="enter city" id="inputEmail4">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="postal code" class="form-label">Pin/Zip</label>
+                        <input type="text" class="form-control rounded-3"  placeholder="enter zip/pin" id="inputEmail4">
+                    </div>
+
+         </div>
+            </div>
+        
     
+<!-- ------------------------------------------------------------------------------------{Block-2}--------------------------------------------------------------------------------------------------- -->
+<div class="block-2 container col-sm-12 col-md-6 row-gap-3 fs-1 fw-bold">Advanced Details
+
+            <div class="alert alert-warning" role="alert">
+                <h5>Sample warning messages-Alert</h5>
+                <div class="fs-6 fw-light">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae repudiandae unde expedita et. Quaerat exercitationem enim nulla repellat molestias,!</p>
+                </div>
+            </div>
+            
+        <div class="row gap-3 col-sm-12 d-flex">
+
+            <label for="customRange1" class="form-label fs-6">height</label>
+
+                <div class="total-rangebar col-sm-6 d-flex flex-row gap-3">
+
+                        <input type="range" class="form-range" id="customRange1" >
+
+                        <input type="" class="form-control rounded-3" value="160cm" id="inputheight">
+                    
+
+                </div>
+
+
+            </div>  
+
+
+        </div>
+
+       
+</div>
+
+<!-- ------------------------------------------------------------------------------------{Block-3}------------------------------------------------------------------------------------------------------------------ -->
+
+        <div class="c-block row col-3 d-flex">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-light">Light</button>
+        </div>
+
+        </div>
+<!-- ------------------------------------------------------------------------------------{END}------------------------------------------------------------------------------------------------------------------ -->
+</div> 
+</section>
 </body>
 </html>
