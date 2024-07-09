@@ -35,27 +35,27 @@
 
                     <div class="col-5">
                         <label for="Name" class="form-label">First Name</label>
-                      <input type="text" class="form-control rounded-3" placeholder="john" aria-label="First name">
+                        <input type="text" class="form-control rounded-4" placeholder="john" aria-label="First name">
                     </div>
 
                     <div class="col-5">
                         <label for="Last Name" class="form-label">Last Name</label>
-                      <input type="text" class="form-control rounded-3" placeholder="doe" aria-label="Last name">
+                      <input type="text" class="form-control rounded-4" placeholder="doe" aria-label="Last name">
                     </div>
 
                     <div class="col-md-6">
                         <label for="Email" class="form-label">Email</label>
-                        <input type="email" class="form-control rounded-3" placeholder="mail@simmmple.com" id="inputEmail4">
+                        <input type="email" class="form-control rounded-4" placeholder="mail@simmmple.com" id="inputEmail4">
                     </div>
 
                     <div class="col-md-6">
                         <label for="Number" class="form-label">Mobile</label>
-                        <input type="email" class="form-control rounded-3"  placeholder="enter mobile Number" id="inputEmail4">
+                        <input type="email" class="form-control rounded-4"  placeholder="enter mobile Number" id="inputEmail4">
                     </div>
 
                     <div class="col-md-6">
                         <label for="dob" class="form-label">Date of Birth</label>
-                        <input type="text" class="form-control rounded-3"  placeholder="Select date of birth" id="inputEmail4">
+                        <input type="text" class="form-control rounded-4"  placeholder="Select date of birth" id="inputEmail4">
                     </div>
                     <div class="col-md-6">
                         <label for="dob" class="form-label">Gender</label>
@@ -77,34 +77,36 @@
                    
                     <div class="col-md-12">
                         <label for="address" class="form-label">Address</label>
-                        <input type="email" class="form-control rounded-3"  placeholder="enter address" id="inputEmail4">
+                        <input type="email" class="form-control rounded-4"  placeholder="enter address" id="inputEmail4">
                     </div>
 
                     <div class="col-md-6">
                         <label for="country" class="form-label">Country</label>
-                        <input type="text" class="form-control rounded-3"  placeholder="Select country" id="inputEmail4">
+                        <input type="text" class="form-control rounded-4"  placeholder="Select country" id="inputEmail4">
                     </div>
                     <div class="col-md-6">
                         <label for="state" class="form-label">Select state</label>
-                        <input type="text" class="form-control rounded-3"  placeholder="Select state" id="inputEmail4">
+                        <input type="text" class="form-control rounded-4"  placeholder="Select state" id="inputEmail4">
                     </div>
 
                     <div class="col-md-6">
                         <label for="city" class="form-label">City</label>
-                        <input type="text" class="form-control rounded-3"  placeholder="enter city" id="inputEmail4">
+                        <input type="text" class="form-control rounded-4"  placeholder="enter city" id="inputEmail4">
                     </div>
 
                     <div class="col-md-6">
                         <label for="postal code" class="form-label">Pin/Zip</label>
-                        <input type="text" class="form-control rounded-3"  placeholder="enter zip/pin" id="inputEmail4">
+                        <input type="text" class="form-control rounded-4"  placeholder="enter zip/pin" id="inputEmail4">
                     </div>
 
-         </div>
+               </div>
             </div>
         
-    
+        
 <!-- ------------------------------------------------------------------------------------{Block-2}--------------------------------------------------------------------------------------------------- -->
-<div class="block-2 container col-sm-12 col-md-6 row-gap-3 fs-1 fw-bold">Advanced Details
+<div class="block-2 container col-sm-12 col-md-6 row-gap-3">Advanced Details
+    
+    <div class="row g-3">
 
             <div class="alert alert-warning" role="alert">
                 <h5>Sample warning messages-Alert</h5>
@@ -113,24 +115,74 @@
                 </div>
             </div>
             
-        <div class="row gap-3 col-sm-12 d-flex">
-
-            <label for="customRange1" class="form-label fs-6">height</label>
-
-                <div class="total-rangebar col-sm-6 d-flex flex-row gap-3">
-
-                        <input type="range" class="form-range" id="customRange1" >
-
-                        <input type="" class="form-control rounded-3" value="160cm" id="inputheight">
-                    
-
+        
+            <div class="row g-3  pt-3 pb-3">
+                <div class="col-md-6">
+                    <label for="customRange1" class="form-label">Height</label>
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <input type="range" class="form-range" id="heightrange"> 
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control rounded-4 p-2" id="heightrange" value="160cm">
+                        </div>
+                    </div>
                 </div>
+                <div class="col-md-6">
+                    <label for="customRange1" class="form-label">Weight</label>
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <input type="range" class="form-range" id="weightrange">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control rounded-4 p-2" id="weightrange" value="68kg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex">
 
+                <div class=" col-sm-4 ">
+                    <form>
+                      <label for="myColor" class="form-label"> Choose Color</label>
+                      <input type="color" class="form-control form-control-color rounded-4" id="myColor" value="#CB5D9F" title="Choose a color">
+                    </form>
+    
+                </div>
+                   <div class="checkbox d-flex col-sm-6">
+                       <div class="d-flex">
+                        <label for="customRange1" class="form-label">Choose Template</label>
+                       <div class="form-check form-check-inline">
+                           <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                           <label class="form-check-label" for="inlineCheckbox1">Template1</label>
+                         </div>
+       
+                         <div class="form-check form-check-inline">
+                           <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                           <label class="form-check-label" for="inlineCheckbox2">Template2</label>
+                         </div>
+       
+                         <div class="form-check form-check-inline">
+                           <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                           <label class="form-check-label" for="inlineCheckbox2">Template3</label>
+                         </div>
 
-            </div>  
+                   </div>
 
+            </div>
 
+         </div>
+
+         <div class="col-md-12">
+            <label for="address" class="form-label">Qualification</label>
+            <input type="qualification" class="form-control rounded-3"  placeholder="enter Qualification" id="qualification details">
+        </div>  
+
+         <div class="col-md-12 p-50">
+                <label for="address" class="form-label">About yourself</label>
+                <textarea class="form-control" placeholder="Leave a comment here" rows="5" id="floatingTextarea"></textarea>
         </div>
+    </div>
 
        
 </div>
