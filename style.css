@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 :root{
-    --on-clr:#4318FF;
+    --main-clr:#4318FF;
 }
 *{
     box-sizing: border-box;
@@ -27,7 +27,7 @@ body{
     color: #2B3674;
 }
 .upload{
-    color:var(--on-clr);
+    color:var(--main-clr);
     background-color:#FAFCFE;
     border:3px dashed rgba(128, 128, 128, 0.4);
 }
@@ -43,18 +43,18 @@ input ::-webkit-input-placeholder{
 }
 .form-control:focus,.form-select:focus,.form-check-input:focus{
     box-shadow: none !important;
-    border-color: var(--on-clr) !important;
+    border-color: var(--main-clr) !important;
 }
 .form-check-input:checked{
-    border-color: var(--on-clr) !important;
-    background-color: var(--on-clr) !important;
+    border-color: var(--main-clr) !important;
+    background-color: var(--main-clr) !important;
 }
 .content{
     padding: 0 !important;
 }
 .save-btn{
     color: white !important;
-    background-color: var(--on-clr) !important;
+    background-color: var(--main-clr) !important;
 }
 .button-block .btn{
     font-size: 16px !important;
@@ -63,7 +63,7 @@ input ::-webkit-input-placeholder{
     width: 100% !important;
 }
 .form-range::-webkit-slider-thumb{
-    background:var(--on-clr) !important;
+    background:var(--main-clr) !important;
 }
 @media screen and (max-width:1200px){
     .c-block-1{
