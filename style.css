@@ -38,7 +38,7 @@ input ::-webkit-input-placeholder{
     opacity: .5 !important;
 }
 .form-label::after{
-    content: "*";
+    content: " *";
     color: red;
 }
 .form-control:focus,.form-select:focus,.form-check-input:focus{
@@ -65,6 +65,16 @@ input ::-webkit-input-placeholder{
 .form-range::-webkit-slider-thumb{
     background:var(--main-clr) !important;
 }
+.placeholder{
+    color: #949DB9 !important;
+    font-size: 12px;
+}
+.weight , .height{
+    color: #2B3674 !important;
+    font-size: 12px;
+    font-weight: 700 !important;
+}
+
 @media screen and (max-width:1200px){
     .c-block-1{
         flex-direction: column !important;
