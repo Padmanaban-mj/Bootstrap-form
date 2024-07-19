@@ -17,7 +17,9 @@ body{
 .fs-4{
     font-weight: 700 !important;
 }
-
+.placeholder .value .form-label .form-control{
+    font-size: 8px !important;
+}
 .bg-clr{
     background: #E9EDF2 !important;
 }
@@ -67,14 +69,13 @@ input ::-webkit-input-placeholder{
 }
 .placeholder{
     color: #949DB9 !important;
-    font-size: 12px;
+    font-size: 8px;
 }
 .weight , .height{
     color: #2B3674 !important;
     font-size: 12px;
     font-weight: 700 !important;
 }
-
 @media screen and (max-width:1200px){
     .c-block-1{
         flex-direction: column !important;
@@ -85,7 +86,6 @@ input ::-webkit-input-placeholder{
         flex-direction: column;
         row-gap: 30px;
     }
-
 }
 @media screen and (max-width:550px){
     .container,.container-fluid{
